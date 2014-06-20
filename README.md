@@ -7,7 +7,6 @@ Example:
 
 ```
 laptop:rabbitbrute myles$ python rabbitbrute.py
-
 [-] Connection refused: test : password
 
 [-] Connection refused: test : secret
