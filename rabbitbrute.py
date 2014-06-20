@@ -63,7 +63,7 @@ def usage():
     print("Running application..")
 
 #
-# Read filename and return as list
+# Read filename and return as a list
 #
 
 
