@@ -5,7 +5,7 @@ Simple brute-force module for RabbitMQ servers. Currently takes user and passwor
 
 Example:
 
-
+```
 laptop:rabbitbrute myles$ python rabbitbrute.py
 
 [-] Connection refused: test : password
@@ -47,3 +47,4 @@ laptop:rabbitbrute myles$ python rabbitbrute.py
 [+] Brute force finished
 
 laptop:rabbitbrute myles$ 
+```
