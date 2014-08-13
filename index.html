@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Rabbitbrute by myleshosford</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Rabbitbrute</h1>
+        <p>Simple brute-force module for RabbitMQ servers</p>
+        <p class="view"><a href="https://github.com/myleshosford/rabbitbrute">View the Project on GitHub <small>myleshosford/rabbitbrute</small></a></p>
+        <ul>
+          <li><a href="https://github.com/myleshosford/rabbitbrute/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/myleshosford/rabbitbrute/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/myleshosford/rabbitbrute">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="rabbitbrute" class="anchor" href="#rabbitbrute"><span class="octicon octicon-link"></span></a>rabbitbrute</h1>
+
+<p>Simple brute-force module for RabbitMQ servers. Currently takes user and password list from /tmp directory (see source).</p>
+
+<p>Example:</p>
+
+<pre><code>laptop:rabbitbrute myles$ python rabbitbrute.py
+[-] Connection refused: test : password
+[-] Connection refused: test : secret
+[-] Connection refused: test : guest
+[-] Connection refused: guest : password
+[-] Connection refused: guest : secret
+[+] Success. User: guest --- Password: guest
+[-] Connection refused: admin : password
+[-] Connection refused: admin : secret
+[-] Connection refused: admin : guest
+[-] Connection refused: myles : password
+[-] Connection refused: myles : secret
+[-] Connection refused: myles : guest
+[-] Connection refused: user : password
+[-] Connection refused: user : secret
+[-] Connection refused: user : guest
+[-] Connection refused: system : password
+[-] Connection refused: system : secret
+[-] Connection refused: system : guest
+[+] Brute force finished
+laptop:rabbitbrute myles$ 
+</code></pre>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/myleshosford">myleshosford</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
